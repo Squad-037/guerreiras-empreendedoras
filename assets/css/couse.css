@@ -1,0 +1,62 @@
+@import url(style.css);
+
+/* Cards circulares */
+.marketing .col-lg-4 {
+    margin: 1.5rem 0 1.5rem;
+    text-align: center;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.bi { /* cor dos icones */
+    color: var(--cor-especial);
+}
+
+/* .btn-secondary {
+    color: var(--cor-especial);
+} */
+
+#circulo1 {
+    background-image: url(/assets/img/cursos/Financeiro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#circulo2 {
+    background-image: url(/assets/img/cursos/marca.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#circulo3 {
+    background-image: url(/assets/img/cursos/Autoconhecimento.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#circulo4 {
+    background-image: url(/assets/img/cursos/marca.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#circulo4 {
+    background-image: url(/assets/img/cursos/Oq\ é\ empreendedorismo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#circulo5 {
+    background-image: url(/assets/img/cursos/marca.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#circulo6 {
+    background-image: url(/assets/img/cursos/Auto\ Confiança.jpg);
+    background-position: center;
+    background-size: cover;
+}

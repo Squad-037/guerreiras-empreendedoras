@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Framework Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Biblioteca JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="/assets/css/inspired.css">
+
+    <!-- Fivecon -->
+    <link rel="shortcut icon" href="/assets/img/favicons/favicon.png" type="image/x-icon" />
+
+    <title> Inspire-se | Mamães Empreendedoras™ </title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="container-fluid navbar navbar-expand-lg bd-navbar fixed-top">
+        <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+            <!-- Logo navbar -->
+            <a class="navbar-brand mx-auto" href="/index.html">
+                <img class="d-block d-none d-lg-flex" id="navbarLogo" src="assets/img/logo/logo.png"
+                    alt="Mamãe Empreendedora logo">
+
+                <title>Mamãe Empreendedora™</title>
+                <small class="d-lg-none ms-2">Mamãe Empreendedora™</small>
+            </a>
+
+            <!-- Botão mobile -->
+            <div class="d-flex">
+                <button class="navbar-toggler border-0 d-lg-none order-3" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
+
+                    <img id="togglerLogo" src="assets/img/buttom/button-collapse.png" fill="currentColor">
+                </button>
+            </div>
+
+            <!-- Menu mobile -->
+            <div class="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar"
+                aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true" aria-modal="true">
+
+                <!-- Cabeçalho do menu -->
+                <div class="offcanvas-header px-4 pb-0">
+                    <h5 class="offcanvas-title text-white" id="bdNavbarOffcanvasLabel">
+                        <span class="gradient-text">Mamãe Empreendedora™</span>
+                    </h5>
+
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas"
+                        aria-label="Close" data-bs-target="#bdNavbar">
+                    </button>
+                </div>
+
+                <!-- Opções do menu -->
+                <div class="offcanvas-body p-4 pt-0 p-lg-0">
+
+                    <hr class="d-lg-none text-white-50">
+                    <!-- Primeira parte da navbar -->
+                    <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav ms-md-auto">
+
+                        <!-- Home -->
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a class="nav-link" aria-current="true" href="/index.html">Home</a>
+                        </li>
+
+                        <!-- Inspire-se -->
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a class="nav-link" href="inspired.html">Inspire-se</a>
+                        </li>
+
+                        <!-- Cursos -->
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a class="nav-link" href="course.html">Cursos</a>
+                        </li>
+
+                        <!-- Serviços -->
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a class="nav-link" href="cadastre.html">Cadastro</a>
+                        </li>
+                    </ul>
+
+                    <hr class="d-lg-none text-white-50">
+                    <!-- Segunda parte da navbar -->
+                    <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+
+                        <li class="nav-item col-6 col-lg-auto"><!-- Github -->
+                            <a class="nav-link" href="https://github.com/squad037" target="_blank" rel="noopener">
+
+                                <svg xmlns="" width="16" height="16" fill="currentColor" class="bi bi-github"
+                                    viewBox="0 0 16 16">
+
+                                    <title>Github</title>
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                </svg>
+                                <small class="d-lg-none ms-2">Github</small>
+                            </a>
+                        </li>
+
+                        <li class="nav-item col-6 col-lg-auto"><!-- Linkedin -->
+                            <a class="nav-link" href="https://www.linkedin.com/in/squad037/" target="_blank"
+                                rel="noopener">
+
+                                <svg xmlns="" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                                    viewBox="0 0 16 16">
+
+                                    <title>Linkedin</title>
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                </svg>
+                                <small class="d-lg-none ms-2">Linkedin</small>
+                            </a>
+                        </li>
+
+                        <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+                            <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+                            <hr class="d-lg-none my-2 text-white-50">
+                        </li>
+
+                        <div class="nav-item col-12 col-lg-auto"><!-- Botões de Login/Cadastro -->
+                            <!-- <a class="btn btn-outline-primary" role="button" href="assets/html/login.html">
+                                    Login
+                                </a> -->
+
+                            <a class="btn btn-primary" role="button" href="cadastre.html">
+                                Cadastre-se
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container mt-5">
+                <h1 class="textoPrincipal">
+                    Após virarem mães, mulheres encontram no empreendedorismo uma porta para obter uma fonte de renda.
+                </h1>
+                <div class="row">
+
+                    <div class="col-md-12 mb-4">
+                        <div class="card-text p-2">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    Decisão de empreender nem sempre está relacionado ao sonho de abrir o próprio
+                                    negócio ou
+                                    a uma ideia genial, mas sim à necessidade.
+                                </h4>
+                                <p class="card-text">A maternidade é um momento especial na vida de muitas mulheres.
+                                    Mas,
+                                    cuidar de um bebê, muitas vezes, acaba afastando a mãe da vida profissional. Seja
+                                    por
+                                    preconceito do mercado de trabalho ou por dificuldade na hora de conciliar a família
+                                    com
+                                    a carreira.
+                                    <br>
+                                    Para superar essas dificuldades do mercado de trabalho, o número de mães
+                                    empreendedoras
+                                    cresce diariamente. A flexibilidade de horário e a possibilidade de trabalhar mais
+                                    perto
+                                    de casa são alguns dos fatores que atraem essas mulheres.
+                                    <br>
+                                    Segundo a Rede Mulher Empreendedora, 68% das empreendedoras começam neste caminho
+                                    após
+                                    terem filhos. Esse número tem explicação.
+                                    <br>
+                                    A escolha é feita, muitas vezes, como consequência da dificuldade em se manter ou
+                                    retornar para o mercado formal. Esse obstáculo é derivado do preconceito de empresas
+                                    com
+                                    a maternidade.
+                                    <br>
+                                    E esse preconceito acaba fechando as portas para profissionais excelentes. As mães
+                                    empreendedoras têm uma taxa de sucesso maior que a média nacional, segundo o Sebrae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 mb-4">
+                        <div class="card-text p-2">
+                            <div class="card-body">
+                                <h5 class="card-title ">A importância do empreendedorismo para as mães</h5>
+                                <p class="card-text">Se o mercado formal de trabalho afasta essas mulheres, o
+                                    empreendedorismo abre um leque de possibilidades para quem tem jornada dupla e busca
+                                    reconhecimento! Com ele, as mães conseguem buscar a independência financeira e a
+                                    realização de sonhos profissionais e pessoais.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <aside>
+            <div class="card-text border border-3 p-2">
+                <h3 class="fs-3 text-center" id="text-color">
+                    Mães empreendedoras: histórias de sucesso para se inspirar!
+                </h3>
+                <h3 class="fs-3">Histórias de mães empreendedoras de sucesso!</h3>
+
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid rounded-start" src="/assets/img/Inspire-se/Mariana-Achutti.jpeg"
+                                id="Mariana-Achutti">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-nome">Mariana Achutti, mãe do Domenico, de 2 ano, é fundadora e CEO da
+                                    Sputnik</h5>
+                                <p class="card-text">
+                                    Fundadora e CEO da SPUTNiK, é empreendedora e vem ajudando a provocar mudanças
+                                    estruturais no universo corporativo por meio de uma educação criativa e disruptiva
+                                    em
+                                    empresas como Google, Facebook, Globo, Boticário, Ambev, entre outras. Como
+                                    brasileira,
+                                    empreendedora e líder, contribui com sua experiência e conhecimento sobre novas
+                                    perspectivas e possibilidades educacionais. Mariana se tornou mãe do Domenico no ano
+                                    passado, após ter vivido a gravidez em meio à pandemia e ao home office. Para ela, a
+                                    maternidade traz skills importantíssimas e que, se valorizadas, poderiam transformar
+                                    o
+                                    universo corporativo.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a href="https://www.instagram.com/mariachutti/" class="btn btn-primary"
+                                    target="_blank">Vistite o instagram da Mariana Achutti</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" style="max-width: 100%; ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="/assets/img/Inspire-se/brunna-farizel.jpg" class="card-img-top"
+                                    id="Brunna Farizel">
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-nome">Brunna Farizel, fundadora da Splash Bebidas Urbanas, mãe da
+                                        Helena e Sofia, atualmente gravida do Enrico. </h5>
+                                    <p class="card-text">
+                                        “Empreender é uma atitude corajosa que envolve frequentemente abandonar o
+                                        conhecido
+                                        e assumir riscos. Quando me tornei mãe, percebi que queria ter mais tempo de
+                                        qualidade com minha filha, vê-la crescer, acompanhar a primeira infância.
+                                        Investir
+                                        no meu próprio negócio permitiu não só que eu tivesse mais flexibilidade de
+                                        tempo,
+                                        mas também liberdade para ser mais criativa. A maternidade é uma grande
+                                        impulsionadora para lidar com os desafios que surgem no caminho. Além disso, é
+                                        muito
+                                        gratificante ver meu negócio crescer e fazer a diferença na vida de outras
+                                        pessoas.
+                                        Atualmente temos mais de 100 lojas espalhadas pelo Brasil e muitas de nossas
+                                        franqueadas são mães e chefes de família. Meu conselho para quem deseja
+                                        empreender e
+                                        maternar ao mesmo tempo é apenas um: sigam em frente e persigam seu sonho!”
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <a href="https://instagram.com/brunnafarizel?igshid=MzRlODBiNWFlZA=="
+                                        class="btn btn-primary" target="_blank">Vistite o instagram da Brunna
+                                        Farizel</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3" style="max-width: 100%;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="/assets/img/Inspire-se/Aline-Medici.jpg" class="card-img-top"
+                                        id="Aline-Medici">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-nome">Aline Medici, Fundadora da rede Ad Clinic.</h5>
+                                        <p class="card-text">“Empreender ou ser mãe? Um dos maiores desafios que nós
+                                            mulheres enfrentamos. O trabalho não proporciona apenas a independência
+                                            financeira, mas também prova que somos peças fundamentais para compor o
+                                            orçamento familiar e, além disso, também necessitamos seguir a nossa própria
+                                            carreira. Quando se tem filhos muitas coisas mudam, minha maior motivação
+                                            veio
+                                            do nascimento do Biel e da Duda. Para as mães que gostariam de empreender,
+                                            deixo
+                                            algumas dicas: ter o meu próprio negócio me ajudou bastante, pois consigo
+                                            flexibilizar os horários com a minha vida pessoal. Sempre dedico um tempo só
+                                            para meus filhos. Aconselho a nunca levar trabalho para casa e não deixar as
+                                            preocupações entrarem na sua casa. Não se culpe ou se cobre”.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                        <a href="https://instagram.com/alinemedici?igshid=MzRlODBiNWFlZA=="
+                                            class="btn btn-primary" target="_blank">Vistite o instagram da Aline
+                                            Medici</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <br>
+                    </div>
+
+                </div>
+        </aside>
+    </main>
+
+    <!-- RODAPÉ -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link px-2 text-body-color">
+                        Inicio
+                    </a>
+                </li>                
+
+                <li class="nav-item">
+                    <a href="inspired.html" class="nav-link px-2 text-body-color">
+                        Inspire-se
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="course.html" class="nav-link px-2 text-body-color">
+                        Cursos
+                    </a>
+                </li>
+            </ul>
+            <p class="text-center">© 2023 Company, Inc - Mamãe Empreendedora</p>
+            <p><a href="#" id="float-end">Voltar ao início</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
