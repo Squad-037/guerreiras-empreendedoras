@@ -1,5 +1,31 @@
 @import url(style.css);
 
+.esse {
+    border: 1px solid red;
+}
+
+strong {
+    color: var(--cor-especial);
+    font-weight: 500;
+}
+
+#bottom-search {
+    background-color: var();
+    color: black;
+    border: none;
+}
+
+#bg-main-top {
+    background-image: url(/assets/img/cursos/office-620822_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#bg-main-top2 {
+    height: 30rem;
+    align-items: center;
+}
+
 /* Cards circulares */
 .marketing .col-lg-4 {
     margin: 1.5rem 0 1.5rem;
@@ -11,7 +37,8 @@
     margin-left: .75rem;
 }
 
-.bi { /* cor dos icones */
+.bi {
+    /* cor dos icones */
     color: var(--cor-especial);
 }
 
@@ -26,34 +53,29 @@
 }
 
 #circulo2 {
-    background-image: url(/assets/img/cursos/marca.jpg);
+    background-image: url(/assets/img/cursos/Tempo.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #circulo3 {
-    background-image: url(/assets/img/cursos/Autoconhecimento.jpg);
+    background-image: url(/assets/img/cursos/Conquistar\ clientes.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #circulo4 {
-    background-image: url(/assets/img/cursos/marca.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-#circulo4 {
-    background-image: url(/assets/img/cursos/Oq\ é\ empreendedorismo.jpg);
+    background-image: url(/assets/img/cursos/Formalização.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #circulo5 {
-    background-image: url(/assets/img/cursos/marca.jpg);
+    background-image: url(/assets/img/cursos/Autoconhecimento.jpg);
     background-position: center;
     background-size: cover;
 }
+
 
 #circulo6 {
     background-image: url(/assets/img/cursos/Auto\ Confiança.jpg);
