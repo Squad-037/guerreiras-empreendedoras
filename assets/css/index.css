@@ -132,24 +132,9 @@
 }
 
 /* Sobre */
- .sobre{
-
-    width: 50%;
-    height: 50%;
-    background: linear-gradient(transparent, var(--cor-especial) 58%);
-   left: 50%;
-    border-top-left-radius: 50px ;
- }
- #sobre{
-    color: #000;
- }
-
-
- .card-title-sobre{
-
-    right: 50%;
- }
-
+/*  #jumbotron{
+    background-color: var(--cor-especial);
+ */
 .featurette-heading {
     letter-spacing: -.05rem;
 }

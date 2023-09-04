@@ -1,8 +1,6 @@
 @import url(style.css);
 
-.esse {
-    border: 1px solid red;
-}
+
 
 strong {
     color: var(--cor-especial);
@@ -16,7 +14,7 @@ strong {
 }
 
 #bg-main-top {
-    background-image: url(/assets/img/cursos/office-620822_1280.jpg);
+    background-image: url(/assets/img/cursos/Cursos.jpg);
     background-position: center;
     background-size: cover;
 }
