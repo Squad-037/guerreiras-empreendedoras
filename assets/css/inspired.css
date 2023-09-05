@@ -98,6 +98,13 @@ h1, h2, h3, h4, h5, h6 {
 color: #FF0066;
 }
 
+/* pag inspired e cadastre */
+#paraBaixo{
+  margin-top: 100px;
+  padding: 20px;
+
+}
+
 /*
  * Footer
  */
