@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   padding: 0 40px;
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   transition: height 0.5s;
 }
 
